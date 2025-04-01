@@ -1,10 +1,11 @@
 import React from 'react';
 import Layout from '@/widgets/layout'
+import UserCard from "@/pages/components/userCard";
 
 const IndexPage: React.FC = () => {
     return (
         <Layout>
-            <h1>blank</h1>
+            <UserCard name={'John Doe'} nickname={'NICKNAME'} role={`User's Role`} extra={'Some extra stuff here'} />
         </Layout>
     );
 };
